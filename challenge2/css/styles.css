@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #BCE067;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+input, button, a {
+    font-family: inherit;
+    /* font-size: inherit; */
+}
+
+.container{
+    /* color: #BCE067; */
+    background-color: #E06651;
+    max-width: 350px;
+    width: 80%;
+    height: 750px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    font-size: 1rem;
+}
+#data {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+#data input {
+    max-width: 100%;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+}
+#data #button {
+    font-family: inherit;
+    border: none;
+    /* font-size:inherit; */
+    font-size: .8em;
+    /* padding: 10px 5px; */
+    width: 90%;
+    align-self: center;
+    height: 50px;
+    background-color: #7EA0E0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    /* vertical-align: middle; */
+    /* line-height: 50px; */
+    border-radius: 10px;
+}
+
+label + input {
+    margin-bottom: 20px;
+}
+
+
