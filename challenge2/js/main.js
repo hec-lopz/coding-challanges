@@ -47,7 +47,7 @@ class Triangle {
     }
     print(){
         this.getArea();
-        document.querySelector('.result').innerHTML = `Tu triángulo es ${this.type} y su área es ${this.area}u`
+        document.querySelector('.result').innerHTML = `Tu triángulo es <strong>${this.type}</strong> y su área es <strong>${this.area}u</strong>`
         console.log(`Tu triángulo es ${this.type} y su área es ${this.area}u`);
     }
 }
