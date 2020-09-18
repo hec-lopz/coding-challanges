@@ -26,3 +26,9 @@ rl.on("close", () => {
     console.log('Gracias por tu visita. c:');
     process.exit(0);
 })
+
+// OUTPUT:
+// Introduce la palabra o frase que quieres repetir: Platzi
+// ¿Cuántas veces quieres repetirlo?: 5
+// Platzi Platzi Platzi Platzi Platzi
+// Gracias por tu visita. c:
